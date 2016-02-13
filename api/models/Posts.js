@@ -1,5 +1,5 @@
 /**
- * Users.js
+ * Posts.js
  *
  * @description :: TODO: You might write a short summary of how this model works and what it represents here.
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
@@ -9,15 +9,13 @@ module.exports = {
 
   attributes: {
 
-    name : { type: 'string' },
+    user_id : { type: 'integer' },
 
-    age : { type: 'integer' },
+    content : { type: 'string' },
 
-    email : { type: 'email' },
+    photos : { type: 'string,' },
 
-    password : { type: 'string' },
-
-    user_id : { type: 'integer' }
+    visibility : { type: 'string' }
   }
 };
 
